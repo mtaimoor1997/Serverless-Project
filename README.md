@@ -7,10 +7,21 @@ The purpose of this project is to detect and monitor Carbon monoxide on an indep
 
 # Tools and Services
 MQ7 Sensor
+
 Nuclio
+
 Rabbit MQ
+
 Node Mcu
+
 Docker
+
 Audino
+
 IFTT
+
+# Libraries
+PubSubClient
+
+ESP8266WIFI
 
