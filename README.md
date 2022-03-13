@@ -33,11 +33,11 @@ The ESP8266WiFi library provides a wide collection of C++ methods (functions) an
 # How To Use
 Clone this repository, then you need to start a Docker to start up a docker instance of Nuclio
 
-Then we have to install Ardiuno and install the libraries.
+Then we have to install Ardiuno and install the libraries
 
 And to start up a docker instance of RabbitMQ
 
-
+And then we perform functionality of ifttt on nuclio environment 
 
 To Run The Logger You Can Use CMD Before that you have install Npm Dependency By Following command :
 
