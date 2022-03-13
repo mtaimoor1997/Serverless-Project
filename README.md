@@ -5,7 +5,7 @@ Carbon monoxide poisoning occurs when carbon monoxide builds up in your bloodstr
 
 The purpose of this project is to detect and monitor Carbon monoxide on an independent platform. By using MQ7 sensor we can check or monitor the amount of Carbon monoxide.
 
-# Tools, Services and Libraries
+# Tools and Services
 MQ7 Sensor
 Nuclio
 Rabbit MQ
@@ -13,5 +13,4 @@ Node Mcu
 Docker
 Audino
 IFTT
-PubSubClient
-ESP8266
+
