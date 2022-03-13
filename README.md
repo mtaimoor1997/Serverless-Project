@@ -25,7 +25,7 @@ PubSubClient
 
 ESP8266WIFI
 
-#How To Use
+# How To Use
 Clone this repository, then you need to start a Docker to start up a docker instance of Nuclio, use this command on nuclio:
 
 $ sudo docker run -p 8070:8070 -v /var/run/docker.sock:/var/run/docker.sock -v /tmp:/tmp nuclio/dashboard:stable-amd64
