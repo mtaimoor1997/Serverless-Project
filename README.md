@@ -33,15 +33,13 @@ The ESP8266WiFi library provides a wide collection of C++ methods (functions) an
 # How To Use
 Clone this repository, then you need to start a Docker to start up a docker instance of Nuclio
 
-Then we have to install Ardiuno and install the libraries
+Then you have to install Ardiuno and install the libraries and run the code of given file of Arduino
 
 And to start up a docker instance of RabbitMQ
 
-And then we perform functionality of ifttt on nuclio environment 
+And then you perform functionality of ifttt on nuclio environment 
 
-To Run The Logger You Can Use CMD Before that you have install Npm Dependency By Following command :
-
-$ sudo apt install npm
+Then there is a logger file which help to connect telegram to recieve notification.
 
 To get the notifications of data readings on Telegram, make an IFTTT applet through Webhooks service. After creating applet, write the IP address, name of event and Key in the code of Nuclio function from IFTTT post-URL section and deploy the function. You can find the key through webhooks service on IFTTT. When the Carbon monoxide level going high or low than threshold, an message notification will be sent on user telegram.
 
