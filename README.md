@@ -1,5 +1,5 @@
 # Serverless-Project
-# Carbon Monoxide Gas Monitoring
+# Carbon Monoxide Gas Detector
 Carbon monoxide (chemical formula CO) is a colorless, odorless, tasteless, flammable gas that is slightly less dense than air.
 Carbon monoxide poisoning occurs when carbon monoxide builds up in your bloodstream. When too much carbon monoxide is in the air, your body replaces the oxygen in your red blood cells with carbon monoxide. This can lead to serious tissue damage, or even death.
 
