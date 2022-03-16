@@ -18,7 +18,7 @@ Docker
 
 Audino
 
-IFTT
+Nodered
 
 # Libraries
 Pubsub Client
@@ -37,9 +37,16 @@ Then you have to install Ardiuno and install the libraries and run the code of g
 
 And to start up a docker instance of RabbitMQ
 
-And then you perform functionality of ifttt on nuclio environment 
+And Installing Node-RED as a global module adds the command node-red to your system path. Execute the following at the command prompt:
 
-Then there is a logger file which help to connect telegram to recieve notification.
+npm install -g --unsafe-perm node-red
 
-To get the notifications of data readings on Telegram, make an IFTTT applet through Webhooks service. After creating applet, write the IP address, name of event and Key in the code of Nuclio function from IFTTT post-URL section and deploy the function. You can find the key through webhooks service on IFTTT. When the Carbon monoxide level going high or low than threshold, an message notification will be sent on user telegram.
+And To install the AMQP components, select the Manage palette option from the right side of the menu bar. Then search for “AMQP” and install node-red-contrib-amqp. If your installation of Node-Red does not have dashboards installed, search for: node-red-dashboard.
+
+Then you have to search and install MOSCA from Manage palette.
+
+And Nodes are added by dragging and dropped them into the center Flow sheet. Logic is created by making connection wires between inputs and output of a node. After the logic is laid out, double click on each of the nodes to configure their specific properties. You will need to specify the MQTT and AMQP definitions of your RabbitMQ IP address,user rights, MQTT topic and AMQP queue name. You will also need to double click on the gauge nodes to configure the look-and-feel of the web dashboard.
+
+After the logic is complete, hit the Deploy button on the right side of the menu bar to run the logic.  The Node-Red dashboard user interface is accessed by: http://ipaddress:1880/ui. 
+
 
