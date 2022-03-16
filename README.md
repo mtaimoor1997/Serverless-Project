@@ -48,5 +48,3 @@ Then you have to search and install MOSCA from Manage palette.
 And Nodes are added by dragging and dropped them into the center Flow sheet. Logic is created by making connection wires between inputs and output of a node. After the logic is laid out, double click on each of the nodes to configure their specific properties. You will need to specify the MQTT and AMQP definitions of your RabbitMQ IP address,user rights, MQTT topic and AMQP queue name. You will also need to double click on the gauge nodes to configure the look-and-feel of the web dashboard.
 
 After the logic is complete, hit the Deploy button on the right side of the menu bar to run the logic.  The Node-Red dashboard user interface is accessed by: http://ipaddress:1880/ui. 
-
-
